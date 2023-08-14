@@ -179,11 +179,12 @@ int main(){
 			case 6:{
 				system("cls");
 				system("color D");
-				char cadenamov[100];
+				char cadenamov[50];
 				printf("Ingrese la frase que quiera:\n");
-				scanf("%s", cadenamov);
+				fflush(stdin);
+				gets(cadenamov);
 				
-				int i = 4;
+				int i = 0;
 			    int Teclapresionada = 0;
 			
 			    while(1){
